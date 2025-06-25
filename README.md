@@ -1,26 +1,22 @@
-# 🧮 Calculator CLI App
+# Python To-Do List Manager
 
-A simple command-line calculator built using Python.  
-This app supports basic arithmetic operations like addition, subtraction, multiplication, and division, and runs directly in the terminal.
+A simple command-line to-do list application written in Python that helps you manage your tasks locally.
 
-## 🚀 Features
-- Addition (+)
-- Subtraction (−)
-- Multiplication (×)
-- Division (÷)
-- Input validation for numbers and division by zero
-- Looping until user exits
+## Features
 
-## 🛠️ Tools Used
-- Python
-- VS Code / Any text editor
-- Terminal
+- 📝 Add new tasks to your list
+- 👀 View all current tasks with numbering
+- 🗑️ Remove tasks by their number
+- 💾 Automatic saving to `tasks.txt` file
+- 🔄 Persistent storage between sessions
 
-## 📂 How to Run
+## Requirements
 
-1. Clone or download this repository.
-2. Open your terminal and navigate to the project folder.
-3. Run the following command:
+- Python 3.x
+
+## Installation
+
+No installation required! Just download the `todo.py` file:
 
 ```bash
-python calculator.py
+wget https://example.com/todo.py  # Replace with actual file URL
