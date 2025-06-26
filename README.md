@@ -1,22 +1,14 @@
-# Python To-Do List Manager
+# 📰 BBC News Headlines Scraper
 
-A simple command-line to-do list application written in Python that helps you manage your tasks locally.
+This Python script fetches and extracts the latest news headlines from the [BBC News website](https://www.bbc.com/news) and saves the top 20 headlines into a text file named `top_headlines.txt`.
 
-## Features
-
-- 📝 Add new tasks to your list
-- 👀 View all current tasks with numbering
-- 🗑️ Remove tasks by their number
-- 💾 Automatic saving to `tasks.txt` file
-- 🔄 Persistent storage between sessions
-
-## Requirements
+## 📦 Requirements
 
 - Python 3.x
+- `requests`
+- `beautifulsoup4`
 
-## Installation
-
-No installation required! Just download the `todo.py` file:
+### Install Dependencies
 
 ```bash
-wget https://example.com/todo.py  # Replace with actual file URL
+pip install requests beautifulsoup4
